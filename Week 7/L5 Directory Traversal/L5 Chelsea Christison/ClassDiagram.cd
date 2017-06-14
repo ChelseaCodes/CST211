@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AbstractIterator&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAAAABAAAAAAAAAIAAAAAAAAQIAAAAAAAAAA=</HashCode>
+      <FileName>abstractiterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackwardsIterator&lt;T&gt;">
+    <Position X="0.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAACAAAAAABAAAAAAAAAAAAAQAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>backwardsiterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Directory">
+    <Position X="4.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABBAAAAAAAAAIAEAAEAAEABAAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>directory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_root" />
+      <Field Name="traverse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Exception">
+    <Position X="9.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAEAAAAABAAABgAAAgAAA=</HashCode>
+      <FileName>exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForwardIterator&lt;T&gt;">
+    <Position X="3.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAAAABAAAAAAAAAAAAAAAAACAIAAAABAAAAA=</HashCode>
+      <FileName>forwarditerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LList&lt;T&gt;">
+    <Position X="14" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ggAAAAAAIAAgQQAAAAFAAAAQEAAgQQAAAAAiAAAAQAA=</HashCode>
+      <FileName>linkedlist.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_head" />
+      <Field Name="m_tail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ListIterator&lt;T&gt;">
+    <Position X="1.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAIAAQBAAAAAAAAAAABAAAAAAAIAAAAgAQEAA=</HashCode>
+      <FileName>listiterator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_cursor" />
+      <Field Name="m_list" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LStack&lt;T&gt;">
+    <Position X="7.25" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAEkAAAAAACAAAAAACAAAAAAAAgAAIASAA=</HashCode>
+      <FileName>lstack.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_stack" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Node&lt;T&gt;">
+    <Position X="11.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAERAAAgAAAAAgAAAIAAACAAAAAAAAACIAAiAAEAAAA=</HashCode>
+      <FileName>node.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_next" />
+      <Field Name="m_previous" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="node">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>directory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="subdirectories" />
+    </ShowAsAssociation>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

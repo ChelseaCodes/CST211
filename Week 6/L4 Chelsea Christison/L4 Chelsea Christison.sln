@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L4 AVL Tree", "L4 AVL Tree\L4 AVL Tree.vcxproj", "{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Debug|x64.ActiveCfg = Debug|x64
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Debug|x64.Build.0 = Debug|x64
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Debug|x86.Build.0 = Debug|Win32
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Release|x64.ActiveCfg = Release|x64
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Release|x64.Build.0 = Release|x64
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Release|x86.ActiveCfg = Release|Win32
+		{E0E03CCD-3A5B-40D8-ADC6-095474D8C0E5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cchristison.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = L4\u0020AVL\u0020Tree\\L4\u0020AVL\u0020Tree.vcxproj
+		SccProjectName1 = L4\u0020AVL\u0020Tree
+		SccLocalPath1 = L4\u0020AVL\u0020Tree
+	EndGlobalSection
+EndGlobal
